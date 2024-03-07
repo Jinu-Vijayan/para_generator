@@ -1,0 +1,54 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    gap: 1rem;
+}
+
+#form input , #form button, #form label{
+    padding: 0.2rem;
+}
+
+#form button{
+    border-radius: 0.625rem;
+    border: none;
+    color: #ffffff;
+    background-color: #2626e2;
+    cursor: pointer;
+}
+
+main{
+    width: 80%;
+}
+
+.para{
+    margin-bottom: 1rem;
+}
+
+.para:hover{
+    color: #f50f0f;
+}
+
+@media screen and (max-width:375.5px) {
+    #form{
+        flex-direction: column;
+    }
+
+    #form button{
+        padding: 0.4rem;
+    }
+}
